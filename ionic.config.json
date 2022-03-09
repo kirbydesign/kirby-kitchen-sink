@@ -1,0 +1,7 @@
+{
+  "name": "kirby-kitchen-sink",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
