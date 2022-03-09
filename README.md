@@ -9,4 +9,4 @@ Android Studio should tell you if the project requires you to upgrade Gradle or 
 
 Now you can run the app, either in an emulator created in Android Studio, or on a physical device connected to your machine with:
 
-`npx cap run android`
+`npm run build && npx cap run android`
