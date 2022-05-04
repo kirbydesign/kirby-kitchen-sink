@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "kirby-kitchen-sink",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

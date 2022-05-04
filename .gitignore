@@ -13,6 +13,7 @@ Thumbs.db
 *.launch
 .settings/
 *.sublime-workspace
+android/.idea/
 
 # IDE - VSCode
 .vscode/*
@@ -20,6 +21,8 @@ Thumbs.db
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+
 
 # misc
 /.sass-cache
