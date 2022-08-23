@@ -5,6 +5,8 @@ import { KirbyModule } from '@kirbydesign/designsystem';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import { TransactionItemComponent } from '../transaction-item/transaction-item.component';
+import { TransactionItemModule } from '../transaction-item/transaction-item.module';
 
 
 @NgModule({
@@ -12,7 +14,8 @@ import { HomePageRoutingModule } from './home-routing.module';
     CommonModule,
     FormsModule,
     KirbyModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    TransactionItemModule
   ],
   declarations: [HomePage]
 })

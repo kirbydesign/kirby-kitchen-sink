@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ListSwipeAction, ToastConfig, ToastController } from '@kirbydesign/designsystem';
+import { Transaction } from '../transaction';
 
 import transactionsData from './transactions.json';
 
@@ -61,25 +62,4 @@ export class HomePage implements OnInit {
     };
     this.toastController.showToast(config);
   };
-}
-
-interface Transaction {
-  id: string;
-  text: string;
-  amount: {
-    amount: number;
-    currencyCode: string;
-  };
-  iconName: string;
-  date: {
-    epoch: number;
-    utc: string;
-  }
-  category: {
-    id: string;
-  }
-  balance: {
-    amount: number;
-  }
-  balanced: boolean;
 }
