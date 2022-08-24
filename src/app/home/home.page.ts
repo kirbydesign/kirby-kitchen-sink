@@ -48,7 +48,7 @@ export class HomePage implements OnInit {
     const config: ToastConfig = {
       message: 'Your toast message',
       messageType: 'success',
-      durationInMs: 2000,
+      durationInMs: 10000,
     };
     this.toastController.showToast(config);
   }
@@ -57,7 +57,7 @@ export class HomePage implements OnInit {
     const config: ToastConfig = {
       message: 'Your toast message',
       messageType: 'warning',
-      durationInMs: 2000,
+      durationInMs: 10000,
     };
     this.toastController.showToast(config);
   };
