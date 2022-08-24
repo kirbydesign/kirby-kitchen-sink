@@ -8,7 +8,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
-    "build:prod:stats": "ng build --configuration production --stats-json",
+    "build:prod:stats": "npm run build:prod -- --stats-json",
     "analyze:prod:stats": "npx webpack-bundle-analyzer ./measures/stats.json",
     "test": "ng test",
     "lint": "ng lint",
