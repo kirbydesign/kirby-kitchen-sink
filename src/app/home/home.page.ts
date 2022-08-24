@@ -6,8 +6,7 @@ import transactionsData from './transactions.json';
 
 @Component({
   // tslint:disable-next-line
-  templateUrl: "home.page.html",
-  styleUrls: ["home.page.scss"],
+  templateUrl: "home.page.html"
 })
 export class HomePage implements OnInit {
   transactions: Transaction[];
@@ -21,7 +20,7 @@ export class HomePage implements OnInit {
   getSectionName(transaction: Transaction): string {
     return transaction.date.utc;
   }
-  
+
   swipeActions: ListSwipeAction[] = [
     {
       position: 'left',

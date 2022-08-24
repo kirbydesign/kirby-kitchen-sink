@@ -3,8 +3,7 @@ import { Transaction } from '../../transaction';
 
 @Component({
   selector: 'transaction-item',
-  templateUrl: './transaction-item.component.html',
-  styleUrls: ['./transaction-item.component.scss'],
+  templateUrl: './transaction-item.component.html'
 })
 export class TransactionItemComponent {
 
